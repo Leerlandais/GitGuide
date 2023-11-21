@@ -8,7 +8,49 @@
 </head>
 <body>
     <h1>Lee's Intro à Git</h1>
+        <p>Welcome to my simple guide to Git based on my own comprehension of how it works. Can't guarantee that everything here will be 100% correct but I'll try my best</p>
+        <p>Step one to understanding Git is to understanding what's going on with each step. For the start of this guide, I'll explain a little of what we covered in class today (21/11/2023)</p>
 
+        <p>Let's break down the steps</p>
+            <table>
+                <tr>
+                    <th>test</th>
+                    <th>test</th>
+                    <th>test</th>
+                </tr>
+                <tr>
+                    <td id="upleft" class="tempgone"></td>
+                    <td id="upmid" class="begone"></td>
+                    <td id="upright">GRAND PROJET</td>
+                </tr>
+                <tr>
+                    <td id="midleft" class="begone"></td>
+                    <td id="midmid" class="begone"></td>
+                    <td id="midright" class="begone"></td>
+                </tr>
+                <tr>
+                    <td id="lowleft" class="begone"></td>
+                    <td id="lowmid">MON PC - empty</td>
+                    <td id="lowright" class="begone"></td>
+                </tr>
+            </table>
+
+            <div>
+                <p>
+                    <ol>
+                        <li>First off, let's go to the <a href="https://github.com/Leerlandais/GitGuide">github repository</a></li>
+                        <li>From here we need to go to "Code" and then copy the lien (either SSH or HTTPS). Then open BASH in the desired folder and copy the entire repository. The command is // git clone https://github.com/Leerlandais/GitGuide.git // Click here to see what happens when you do this</li>
+                        <li>Now that we have the files on our PC, we can work on them. Before we do that, we might as well add somewhere to put our files. The command is // git remote add origin main // Click here to see what happens when you do this</li>
+                        <li>With all that done we can now work on the changes. In the Grand Project, you've been put in charge of images. So add them. Click here to see what happens when you do this</li>
+                        <li>Now that we've done the necessary work, we need to upload it to git so it's accessible to others. To do that, you return to BASH and prepare your files // git add . // What happens here is GIT checks for differences between the files on your PC with the Upstream version and flags any changes made</li>
+                        <li>The next step is to prepare the files for sending, where we include a description of changes. The command is // git commit -m"Your Message // Your changes are now ready to be sent...</li>
+                        <li>...and this is why we made origin. Because we don't own the Grand Project, we need first to send it to git using this command // git push origin main // As usual, click here to see what happens when you do this</li>
+                        <li>Now that the changes are uploaded to git, we need to tell the Project owner that the work is done. Return to Git and use the Pull Request. Click here to see what happens when you do this</li>
+                        <li>The owner can now see your changes and accept them (merging them into the Grand Project). Click here to see what happens</li>
+                        <li>Or he can refuse them. Click here to see what happens when you do this</li>
+                    </ol>
+                </p>
+            </div>
     <footer>
         <hr>
         <h4 id="copyright">&copy; Lee Brennan</h4>

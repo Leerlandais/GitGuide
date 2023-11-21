@@ -18,4 +18,28 @@ footer {
     text-align: center;
     font-style: italic;
     font-family: cursive;
+
+}
+
+td{
+    border: 2px solid black;
+
+}
+
+.begone{
+    border: none;
+
+}
+
+.tempgone{
+    border: none;
+}
+
+td, tr{
+    height: 150px;
+    width: 150px;
+}
+
+table{
+    text-align: center;
 }
