@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: 48px;
+}
+
+#copyright{                 
+    transition: transform 50s ease-in-out;
+}
+
+#copyright:hover {
+    transform: rotateY(-36000deg);
+   
+} 
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
