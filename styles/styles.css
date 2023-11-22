@@ -6,7 +6,7 @@ h1{
     text-align: center;
     text-decoration: underline;
     font-family: cursive;
-    font-size: 48px;
+    font-size: 20px;
 }
 
 h2{
@@ -27,6 +27,11 @@ footer {
     text-align: center;
     font-style: italic;
     font-family: cursive;
+
+}
+
+th{
+    font-size: 20px;
 
 }
 
@@ -65,4 +70,9 @@ p{
     font-family: cursive;
     text-align: justify;
     
+}
+
+div{
+    padding-left: 300px;
+    padding-right: 300px;
 }
