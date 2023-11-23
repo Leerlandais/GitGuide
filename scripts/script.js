@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
         targetCell.textContent = sourceCell.textContent
         document.getElementById('stepInfo').innerHTML = "On a créé une copie du Grand Projet sur nos PC.";
         document.getElementById('lowmid').style.color = "red";
+        document.getElementById('step2').style.color = "black";
+        document.getElementById('step3').style.color = "chartreuse";
     })
 
     var button2 = document.getElementById('step3');
@@ -15,17 +17,21 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('stepInfo').innerHTML = "On a créé un endroit sur Github où on pourrait éventuellement mettre nos travaux.";
         document.getElementById('lowmid').style.color = "black";
         document.getElementById('upleft').style.color = "red";
+        document.getElementById('step3').style.color = "black";
+        document.getElementById('step4').style.color = "chartreuse";
     })
 
     var button3 = document.getElementById('step4');
     var sourceCell2 = document.getElementById('lowright');
     var targetCell2 = document.getElementById('lowmid');
-    button3.addEventListener('click', function() {
+        button3.addEventListener('click', function() {
         targetCell2.textContent = sourceCell2.textContent;
         sourceCell2.textContent = '';        
         document.getElementById('stepInfo').innerHTML = "On ajoute nos images à notre copie du Grand Projet.";
         document.getElementById('upleft').style.color = "black";
         document.getElementById('lowmid').style.color = "red";
+        document.getElementById('step4').style.color = "black";
+        document.getElementById('step7').style.color = "chartreuse";
 })
 
     var button4 = document.getElementById('step7');
@@ -36,6 +42,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('stepInfo').innerHTML = "On a transféré une copie de nos travaux sur notre Github.";
         document.getElementById('lowmid').style.color = "black";
         document.getElementById('upleft').style.color = "red";
+        document.getElementById('step7').style.color = "black";
+        document.getElementById('step8').style.color = "chartreuse";
 })
 
     var button5 = document.getElementById('step8');
@@ -44,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('stepInfo').innerHTML = "On demande au propriétaire du Grand Projet si nos changements sont bons.";
         document.getElementById('upleft').style.color = "black";
         document.getElementById('upmid').style.color = "red";
+        document.getElementById('step8').style.color = "black";
+        document.getElementById('step9').style.color = "chartreuse";
 })
 
     var button6 = document.getElementById('step9');
@@ -55,7 +65,15 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('stepInfo').innerHTML = "Il les a acceptés. Bravo, votre travail est maintenant fusionné avec le projet.";
         document.getElementById('upmid').style.color = "black";
         document.getElementById('upright').style.color = "red";
- })
+        document.getElementById('step9').style.color = "black";
+        document.getElementById('refresh').style.color = "chartreuse";
+})
+
+        var button7 = document.getElementById('refresh');
+        button7.addEventListener('click', function() {
+        location.reload();
+
+        })
 });
 
 

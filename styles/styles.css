@@ -101,12 +101,13 @@ p{
     
 }
 
-.visible {
-    font-weight: bolder;
-    text-decoration: underline;
+.visible2 {
+
     color: chartreuse;
     cursor: pointer;
 }
+
+
 
 div{
     padding-left: 150px;
