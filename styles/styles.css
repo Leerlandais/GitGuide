@@ -72,6 +72,8 @@ td, tr{
     width: 150px;
 }
 
+
+
 table{
     text-align: center;
     margin-left: 40%;
@@ -94,6 +96,7 @@ p{
     font-weight: bolder;
     text-decoration: underline;
     color: chartreuse;
+    cursor: pointer;
 }
 
 div{
