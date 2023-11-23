@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Lee's Intro à Git</h1>
-            <table><p>test</p>
+            <table>
                 <tr>
                     <th class="begone"></th>
                     <th id="hideOrigin">Origin</th>
@@ -34,6 +34,7 @@
                     <td id="lowright" class="begone">GRAND PROJET + Images</td>
                     <td class="begone gitloc" >LOCAL</td>
                 </tr>
+                <h3 id="stepInfo"></h3>
             </table>
             <div>
                 <p>
@@ -41,17 +42,19 @@
                         <li>Tout d'abord, allons sur le <a href="https://github.com/Leerlandais/GitGuide" target="_blank">dépôt GitHub</a></li>
                         <li>À partir de là, nous devons aller dans "Code" et copier le lien (soit SSH soit HTTPS). Ensuite, ouvrez BASH dans le dossier souhaité et copiez l'intégralité du dépôt. La commande est // git clone https://github.com/Leerlandais/GitGuide.git // Cliquez <span id="step2" class="visible">ici</span> pour voir ce qui se passe quand vous faites cela</li>
                         <li>Maintenant que nous avons les fichiers sur notre PC, nous pouvons travailler dessus. Avant cela, nous pourrions aussi ajouter un endroit pour mettre nos fichiers. La commande est // git remote add origin main // Cliquez <span id="step3" class="visible">ici</span>
-                        <li>Avec tout cela fait, nous pouvons maintenant travailler sur les modifications. Dans le Grand Projet, vous avez été chargé des images. Alors ajoutez-les. Cliquez <span id="step4" class="visible">ici</span>
-                        <li>Maintenant que nous avons fait le travail nécessaire, nous devons le téléverser sur git pour qu'il soit accessible aux autres. Pour cela, retournez dans BASH et préparez vos fichiers // git add . // Ce qui se passe ici, c'est que GIT vérifie les différences entre les fichiers sur votre PC et la version Upstream, et signale les changements effectués</li>
-                        <li>L'étape suivante consiste à préparer les fichiers pour l'envoi, où nous incluons une description des changements. La commande est // git commit -m"Votre message" // Vos modifications sont maintenant prêtes à être envoyées... 
-                        <li>...et c'est pourquoi nous avons créé origin. Parce que nous ne possédons pas le Grand Projet, nous devons d'abord l'envoyer à Git en utilisant cette commande // git push origin main // Comme d'habitude, cliquez <span id="step7" class="visible">ici</span> pour voir ce qui se passe quand vous faites cela</li>
-                        <li>Maintenant que les modifications sont téléversées sur git, nous devons informer le propriétaire du Projet que le travail est terminé. Retournez sur Git et utilisez la Pull Request. Cliquez <span id="step8" class="visible">ici</span> pour voir ce qui se passe quand vous faites cela</li>
-                        <li>Le propriétaire peut maintenant voir vos modifications et les accepter (les fusionner dans le Grand Projet). Cliquez <span id="step9" class="visible">ici</span> pour voir ce qui se passe</li>
-     <!--                   <li>Ou il peut les refuser. Cliquez ici pour voir ce qui se passe quand vous faites cela</li>                -->
-                    </ol>
-                    
-                </p>
+                            <li>Avec tout cela fait, nous pouvons maintenant travailler sur les modifications. Dans le Grand Projet, vous avez été chargé des images. Alors ajoutez-les. Cliquez <span id="step4" class="visible">ici</span>
+                                <li>Maintenant que nous avons fait le travail nécessaire, nous devons le téléverser sur git pour qu'il soit accessible aux autres. Pour cela, retournez dans BASH et préparez vos fichiers // git add . // Ce qui se passe ici, c'est que GIT vérifie les différences entre les fichiers sur votre PC et la version Upstream, et signale les changements effectués</li>
+                                <li>L'étape suivante consiste à préparer les fichiers pour l'envoi, où nous incluons une description des changements. La commande est // git commit -m"Votre message" // Vos modifications sont maintenant prêtes à être envoyées... 
+                                    <li>...et c'est pourquoi nous avons créé origin. Parce que nous ne possédons pas le Grand Projet, nous devons d'abord l'envoyer à Git en utilisant cette commande // git push origin main // Comme d'habitude, cliquez <span id="step7" class="visible">ici</span> pour voir ce qui se passe quand vous faites cela</li>
+                                    <li>Maintenant que les modifications sont téléversées sur git, nous devons informer le propriétaire du Projet que le travail est terminé. Retournez sur Git et utilisez la Pull Request. Cliquez <span id="step8" class="visible">ici</span> pour voir ce qui se passe quand vous faites cela</li>
+                                    <li>Le propriétaire peut maintenant voir vos modifications et les accepter (les fusionner dans le Grand Projet). Cliquez <span id="step9" class="visible">ici</span> pour voir ce qui se passe</li>
+                                    <!--                   <li>Ou il peut les refuser. Cliquez ici pour voir ce qui se passe quand vous faites cela</li>                -->
+                                </ol>
+                                
+                            </p><br><br><br>
+                
             </div>
+            <br><br><br><br>
     <footer>
         <hr>
         <h4 id="copyright">&copy; Lee Brennan</h4>
