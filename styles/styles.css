@@ -72,11 +72,10 @@ td, tr{
     width: 150px;
 }
 
-
-
 table{
+    float: left;
     text-align: center;
-    margin-left: 40%;
+    margin-right: 50px;
 }
 li{
     font-size: 23px;
@@ -100,6 +99,6 @@ p{
 }
 
 div{
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
