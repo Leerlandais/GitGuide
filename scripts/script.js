@@ -74,13 +74,25 @@ document.addEventListener("DOMContentLoaded", function() {
         location.reload();
 
         })
+
+        var showStep1 = "Tout d'abord, allons sur le <a href='https://github.com/Leerlandais/GitGuide' target='_blank'>'dépôt GitHub</a>'";
+        var showStep2 = "À partir de là, nous devons aller dans 'Code' et copier le lien (soit SSH soit HTTPS). Ensuite, ouvrez BASH dans le dossier souhaité et copiez l'intégralité du dépôt. La commande est // git clone https://github.com/Leerlandais/GitGuide.git // Cliquez <span id='step2' class='visible2'>ici</span> pour voir ce qui se passe quand vous faites cela'";
+        var showStep3 = "Maintenant que nous avons les fichiers sur notre PC, nous pouvons travailler dessus. Avant cela, nous pourrions aussi ajouter un endroit pour mettre nos fichiers. La commande est // git remote add origin main // Cliquez <span id='step3' class='visible3'>ici</span>'";
+        var showStep4 = "Avec tout cela fait, nous pouvons maintenant travailler sur les modifications. Dans le Grand Projet, vous avez été chargé des images. Alors ajoutez-les. Cliquez <span id='step4' class='visible4'>ici</span>'";
+        var showStep5 = "Maintenant que nous avons fait le travail nécessaire, nous devons le téléverser sur git pour qu'il soit accessible aux autres. Pour cela, retournez dans BASH et préparez vos fichiers // git add . // Ce qui se passe ici, c'est que GIT vérifie les différences entre les fichiers sur votre PC et la version Upstream, et signale les changements effectués'";
+        var showStep6 = "L'étape suivante consiste à préparer les fichiers pour l'envoi, où nous incluons une description des changements. La commande est // git commit -m'Votre message' // Vos modifications sont maintenant prêtes à être envoyées...'";
+        var showStep7 = "...et c'est pourquoi nous avons créé origin. Parce que nous ne possédons pas le Grand Projet, nous devons d'abord l'envoyer à Git en utilisant cette commande // git push origin main // Comme d'habitude, cliquez <span id='step7' class='visible7'>ici</span> pour voir ce qui se passe quand vous faites cela'";
+        var showStep8 = "Maintenant que les modifications sont téléversées sur git, nous devons informer le propriétaire du Projet que le travail est terminé. Retournez sur Git et utilisez la Pull Request. Cliquez <span id='step8' class='visible8'>ici</span> pour voir ce qui se passe quand vous faites cela'";
+        var showStep9 = "Le propriétaire peut maintenant voir vos modifications et les accepter (les fusionner dans le Grand Projet). Cliquez <span id='step9' class='visible9'>ici</span> pour voir ce qui se passe'";
+        var showStep10 = "Refaire les étapes? Cliquez <span id='refresh'>ici</span>'";
+        
 });
 
 
 
 
 
-// document.getElementById('refresh').style.cssText = "color: chartreuse; text-decoration: underline;"; 
+// document.getElementById('refresh').style.cssText = 'color: chartreuse; text-decoration: underline;"; 
 
 
 
